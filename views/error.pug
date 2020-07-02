@@ -1,0 +1,14 @@
+ //- Not extending layout. Aim is to keep error page seperate from the layout
+
+//- Additional css to handle error page styles
+link(rel='stylesheet', href='/static/css/error.css')
+
+block content
+    div.errorRoot
+        h1.messageHead Ooopps!
+        div.errorBox
+            h1.messageHead= error.message
+            h2.messageCode= error.status
+            pre.wrapped= error.stack
+        nav.backHome
+            a(href='/') ← Home

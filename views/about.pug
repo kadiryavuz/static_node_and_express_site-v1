@@ -1,0 +1,57 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Name.
+        h1 Kadir Yavuz
+
+        //- Title Text
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+
+        //- Portfolio text
+        .portfolio-bio
+          p 
+            | I've always had a passion for technology and product development, 
+            | having worn many hats in my career between software development in .NET, agile team leading and product management for tech companies headquartered in France and Turkey. 
+            | I use my experience to be more than just a coder, connecting business requirements and creating new things from scratch with modern technology.
+            | I have 2 years of development experience building fullstack products from scratch, developing and integrating APIs, 
+            | working with a variety of databases and clould platforms and more recently developing mobile-first web applications in PWA concept.
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Skills listed
+        ul
+          li JavaScript
+          li HTML
+          li CSS
+          li NodeJS
+          li ReactJS
+          li VanillaJS
+          li Express 
+          li Pug
+          li REST and SOAP APIs
+          li OOP
+          li AWS Serverless
+          li SQL
+          li MongoDB
+          li PWAs
+        h6 Contact Info
+
+        //- Contact Info
+        ul
+          li +90-541-840-1884
+          li kadir.yavuz@outlook.com
+
+        //- Contact URLs
+        a.button.expanded(href='https://www.linkedin.com/in/kadiry/') LinkedIn
+        a.button.expanded(href='https://github.com/kadiryavuz') GitHub
+        a.button.expanded(href='https://www.instagram.com/yvzkdr/') Instagram
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

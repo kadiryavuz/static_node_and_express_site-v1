@@ -1,0 +1,56 @@
+{ "projects": [
+    { 
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "FSJT Project 1 - A Random Quote Generator",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "live_link": "https://trusting-tereshkova-ebab3c.netlify.app/",
+        "github_link": "https://github.com/kadiryavuz/a_random_quote_generator-v1",
+        "image_urls": ["rq_main.png", "rq_1.png"]
+    },
+    { 
+        "id": 1,
+        "project_name": "Memory Game",
+        "description": "Simple memory game - IIFE, Event Bubbling, VanillaJS, HTML, CSS, Flex Layout",
+        "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
+        "live_link": "https://upbeat-bhaskara-9e7a6f.netlify.app/",
+        "github_link": "https://github.com/kadiryavuz/memory_game",
+        "image_urls": ["mg_main.png", "mg_1.png", "mg_2.png"]
+    },
+    { 
+        "id": 2,
+        "project_name": "List, Pagination and Filtering",
+        "description": "FSJS project 2 - List Filter and Pagination",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "live_link": "https://unruffled-almeida-22063b.netlify.app/",
+        "github_link": "https://github.com/kadiryavuz/list_pagination_and_filtering-v1",
+        "image_urls": ["lpf_main.png", "lpf_1.png", "lpf_2.png", "lpf_3.png"]
+    },
+    { 
+        "id": 3,
+        "project_name": "Interactive Form",
+        "description": "Interactive Form Project => VanillaJS, Regex, Event-Bubbling, Callbacks, Form",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "live_link": "https://gracious-chandrasekhar-82b77d.netlify.app/",
+        "github_link": "https://github.com/kadiryavuz/interactive-form-v2",
+        "image_urls": ["if_main.png", "if_1.png", "if_2.png"]
+    },
+    { 
+        "id": 4,
+        "project_name": "OOP Game: Phrase Hunter",
+        "description": "OOP Game - Phrase Hunter",
+        "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
+        "live_link": "https://nostalgic-swirles-a61f05.netlify.app/",
+        "github_link": "https://github.com/kadiryavuz/oop_game-v2",
+        "image_urls": ["ph_main.png", "ph_1.png", "ph_2.png"]
+    },
+    { 
+        "id": 5,
+        "project_name": "Public API Request",
+        "description": "Asynchronous Programming with JavaScript using VanillaJS, FetchAPI and Promises (FSJT-5)",
+        "technologies": ["JavaScript", "HTML", "CSS", "FetchAPI"],
+        "live_link": "https://xenodochial-hodgkin-bd229d.netlify.app/",
+        "github_link": "https://github.com/kadiryavuz/public_api_request-v1",
+        "image_urls": ["par_main.png", "par_1.png", "par_2.png", "par_3.png"]
+    }
+]}

@@ -1,0 +1,36 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Project name
+        h1 #{project.project_name}
+
+        //- Project desc using interpolation
+        p.lead.text-light
+          | #{project.description}
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Technologies
+
+        //- Iterating with each in technologies data to list tech used in each project
+        ul
+          each tech in project.technologies
+            li #{tech}
+          
+
+        //- Template literals for developer infor urls
+        a.button.expanded(href=`${project.live_link}`) Live Demo
+        a.button.expanded(href=`${project.github_link}`) GitHub Repo
+    
+    //- Iterating within the image_urls fetched from data.json 
+    //- According to the teamplate, first index of image_urls always keeps main image, so there is a conditional within each checking if index zero then skip to the next image url
+    //- Each project may have different count of project images.  
+    each img in project.image_urls
+      if project.image_urls.indexOf(img) > 0
+        img.image(src=`/static/images/${img}`)
+    
