@@ -8,5 +8,6 @@ npm start to start server on port 3000
     error.message
     error.status
     error.stack
+  - logs out a user friendly message the error before rendering error page
 - In order to complete customizing style task, seperate css is provided to provide error template's styles - layout, border, font styling etc.
   
